@@ -1,4 +1,4 @@
-package com.pilarscy.controller
+package com.pilarscy.test.controller
 
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.RequestMapping
