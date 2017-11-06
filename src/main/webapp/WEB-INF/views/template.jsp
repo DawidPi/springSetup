@@ -4,6 +4,7 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="resources/css/main.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>test</title>
 </head>
@@ -12,16 +13,19 @@
     <tiles:insertAttribute name="header" />
 </header>
 
-<section id="sidemenu">
+<nav id="sidemenu">
     <tiles:insertAttribute name="menu" />
-</section>
+</nav>
 
-<section id="site-content">
+<section id="main">
     <tiles:insertAttribute name="body" />
 </section>
+
+
 
 <footer id="footer">
     <tiles:insertAttribute name="footer" />
 </footer>
+
 </body>
 </html>
