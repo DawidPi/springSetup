@@ -1,8 +1,21 @@
+<div class="logo">
+    <img src="/resources/images/logo.png">
+</div>
+
 <ul>
     <li>
-        elem1
+        Strona główna
     </li>
     <li>
-        elem2
+        Rezerwacje
+    </li>
+    <li>
+        SPA
+    </li>
+    <li>
+        Tory basenowe
+    </li>
+    <li>
+        Dla dzieci
     </li>
 </ul>
