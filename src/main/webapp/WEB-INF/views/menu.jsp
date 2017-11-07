@@ -1,21 +1,23 @@
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spr" %>
+
 <div class="logo">
     <img src="/resources/images/logo.png">
 </div>
 
 <ul>
     <li>
-        Strona główna
+        <spr:message code="nav.home"/>
     </li>
     <li>
-        Rezerwacje
+        <spr:message code="reservations"/>
     </li>
     <li>
-        SPA
+        <spr:message code="nav.spa"/>
     </li>
     <li>
-        Tory basenowe
+        <spr:message code="swimLanes"/>
     </li>
     <li>
-        Dla dzieci
+        <spr:message code="children"/>
     </li>
 </ul>

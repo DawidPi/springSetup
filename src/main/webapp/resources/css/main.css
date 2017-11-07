@@ -46,6 +46,7 @@ nav > ul > li:active {
 }
 
 div.logo {
+    margin-top: 2em;
     margin-bottom: 3em;
 }
 
@@ -70,6 +71,19 @@ footer {
 footer > div.shadow {
     width: 100%;
     min-height: 10%;
-    background-color: black;
-    background: linear-gradient(black, #414141);
+    background: black linear-gradient(black, #414141);
+}
+
+footer > div.footer_content_container {
+    text-align: center;
+}
+
+div.footer_content {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    line-height: 1.5;
+    font-size: small;
 }
